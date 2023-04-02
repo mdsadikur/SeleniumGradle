@@ -48,7 +48,7 @@ public class Locators {
         Thread.sleep(2000);
         driver.findElement(By.id("permanentAddress")).sendKeys("Trishal");
         Thread.sleep(2000);
-        driver.findElement(By.id("submit")).click();
+        driver.findElement(By.cssSelector(".btn.btn-primary")).click();
         Thread.sleep(2000);
 
         driver.quit();
